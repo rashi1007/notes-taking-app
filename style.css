@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(notes.jpg);
+    opacity:0.6;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    float: center;
+    margin-top: 70px;
+    margin-left:550px;
+    padding-top: 50px;
+    color:white;
+}
+.container {
+    margin-top: 40px;
+    margin-left:450px;
+    padding-top: 20px;
+}
+#inputfield {
+    border: 2px solid black;
+    font-size: 20px;
+    vertical-align: middle;
+}
+#addToDo {
+    font-size: 20px;
+    border: 2px solid black;
+    vertical-align: middle;
+}
+.todos {
+    margin-top: 25px;
+}
+.paragraph-styling {
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
